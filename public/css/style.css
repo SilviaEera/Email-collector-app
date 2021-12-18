@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    /* background: #ddd4c8; */
+}
+
+.form-box {
+    width: 380px;
+    height: 450px;
+    position: relative;
+    margin: 12% auto;
+    /* background: #fff; */
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.info-box {
+    width: 100%;
+    margin: 35px auto;
+    position: relative;
+    /* box-shadow: 0 0 20px 9px #eea8a8; */
+    border-radius: 30px;
+    text-align: center;
+}
+
+.info-box h2 {
+    margin-top: 10px !important;
+    font-size: 30px;
+}
+
+.info-box h6 {
+    font-size: 10px;
+}
+
+/* .signup {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+} */
+
+/* .btn-design {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: #f55454;
+    border-radius: 30px;
+    transition: all linear 0.5s;
+} */
+
+.input-box {
+    top: 170px;
+    position: absolute;
+    width: 100%;
+    transition: all linear 0.5s;
+    padding: 0 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #999 !important;
+}
+
+.submit {
+    width: 50%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px !important;
+    margin: auto;
+    background: #fbea97 !important;
+    border: none;
+    outline: none;
+    color: #999;
+    /* border-radius: 10px !important; */
+}
+
+/* @media (min-width: 321px) {
+    .form-box {
+        width: 300px;
+        height: 380px;
+        position: relative;
+        margin: 12% auto;
+        border: 1px solid #999;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .submit {
+        width: 50%;
+        padding: 10px 30px;
+        cursor: pointer;
+        display: block;
+        margin-top: 30px !important;
+        margin: auto;
+        background: #fbea97 !important;
+        border: none;
+        outline: none;
+        color: #999;
+    }
+
+    .input-box {
+        width: 100%;
+        top: 140px;
+        position: absolute;
+        transition: all linear 0.5s;
+        padding: 0 30px;
+    }
+
+    .info-box img {
+        width: 35%;
+    }
+
+    .info-box h2 {
+        margin-top: 10px !important;
+        font-size: 25px;
+    }
+
+    .info-box h6 {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    .form-box {
+        width: 310px;
+        height: 400px;
+        position: relative;
+        margin: 12% auto;
+        border: 1px solid #999;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .submit {
+        width: 50%;
+        padding: 10px 30px;
+        cursor: pointer;
+        display: block;
+        margin-top: 30px !important;
+        margin: auto;
+        background: #fbea97 !important;
+        border: none;
+        outline: none;
+        color: #999;
+    }
+
+    .input-box {
+        width: 100%;
+        top: 180px;
+        position: absolute;
+        transition: all linear 0.5s;
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-box {
+        width: 680px;
+        height: 500px;
+        position: relative;
+        margin: 12% auto;
+        border: 1px solid #999;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .submit {
+        width: 50%;
+        padding: 10px 30px;
+        cursor: pointer;
+        display: block;
+        margin-top: 30px !important;
+        margin: auto;
+        background: #fbea97 !important;
+        border: none;
+        outline: none;
+        color: #999;
+    }
+
+    .input-box {
+        width: 100%;
+        top: 250px;
+        position: absolute;
+        transition: all linear 0.5s;
+        padding: 0 50px;
+    }
+
+    .info-box img {
+        width: 90%;
+    }
+
+    .info-box h2 {
+        margin-top: 10px !important;
+        font-size: 70px;
+    }
+
+    .info-box h6 {
+        font-size: 8px;
+    }
+} */
